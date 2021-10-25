@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+        
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+            integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <h3 id="filli">ADVERIX</h3>
+            <div class="nav-links" id="navlinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="offer.html">offers</a></li>
+                    <li><a href="phones.html">Phones</a></li>
+                    <li><a href="laptop.html">Laptops</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="logo.html">logo's</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+
+
+    </section>
+
+   
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>About Our Goal</h1>
+                <p>We believe in making people happy and cheerful. We work so that people <br> should find it is to buy, sell, get names for thier company, and get <br> product’s in discounted price. We can do most of the work for you, so <br> you don’t have to struggle.</p>
+                <a href="contact.html" class="hero-btn btn-red">Contact</a>
+            </div>
+           
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+    <!-- footer -->
+
+    <section class="footer">
+        <div class="icons">
+            <a target="_blank" href="https://www.facebook.com/people/Ad-Verix/100073901782720/"><i class="fab fa-facebook-f "></i></a>
+            <a target="_blank" href="https://twitter.com/ad_verix?t=FiFhv3OHUz4yolLSOzSOIw&s=09"><i class="fab fa-twitter "></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/ad-verix-665697224"><i class="fab fa-linkedin-in"></i></a>
+           <a target="_blank" href="https://instagram.com/ad.verix?utm_medium=copy_link"> <i class="fab fa-instagram"></i></a>
+        </div>
+        <p>Made With <i class="far fa-heart"></i> By Mustafa Ansari</p>
+    </section>
+
+
+    <!-- java script -->
+
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function showMenu() {
+            navlinks.style.right = "0";
+        }
+        function hideMenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+
+
+
+</body>
+
+</html>
